@@ -1,0 +1,21 @@
+<div class="flex justify-center align-center p-8">
+    <div class="flex flex-col w-3/5 ">
+        <img src="../../<%=receta.imagen%>" style="max-width:500px;" alt="<%=receta.nombre%>">
+        <!-- <img src="../../../public/images/pizza-hut-cadenas-de-pizza-cdmx.jpg" style="max-width:500px;" alt="imagen de la receta"> -->
+        <p>preparación:</p>
+        <p>
+            <%=receta.preparacion%>
+        </p>
+    </div>
+    <div class="flex flex-col w-2/5">
+        <h1 class="text-7xl my-3"><%=receta.nombre%></h1>
+        <p>Descripción: </p>
+        <p>
+            <%=receta.preparacion%>
+        </p>
+        <ul>
+            <%=receta.ingredientes%>
+        </ul>
+    </div>
+
+</div>
